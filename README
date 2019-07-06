@@ -1,2 +1,2 @@
-For my scanner project, I chose choice 3. My FSA table is in scanner.c and the driver
-is testScanner.c.
+For the scanner portion I created the FSA table and placed it in scanner.c. I included an excel
+file to better represent the FSA table. The driver for this portion is testScanner.c.

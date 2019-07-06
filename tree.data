@@ -1,0 +1,14 @@
+program void
+  vars var x : 2
+  block start stop
+    vars var y : 3
+    stats
+      stat
+        out out [ ] .
+          expr
+            A +
+              M
+                R x
+              A
+                M
+                  R y

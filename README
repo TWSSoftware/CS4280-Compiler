@@ -1,9 +1,4 @@
-Storage=Local
-
-The code generation of the compiler was a modification of my static 
-semantics function. It will take any .fs182 file or input from the 
-user and create a .asm file. The .asm file can be read by VirtMach.
-I was able to test all the test files given to me and they seemed
-to work except for the test global file which will be errored by 
-static semantics because I did the local option for the static 
-semantics. 
+This program is a compiler that I created for CS4280. This program will take any .fs182 file 
+and turn it into a .asm file. This assembly language can then be executed using Dr. Janikow's
+virtual Machine called VirtMach. Each section of the compiler was created in separate projects 
+which I have included in this repository.

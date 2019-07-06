@@ -1,0 +1,16 @@
+This program takes a file from the command line or from standard input, transforms 
+every character to the lowercase form of the character, and creates a tree from the 
+fileput or standard input. This program also prints the inorder, preorder, and 
+postorder traversals to their respective file created in the users folder. 
+
+This program also has the option of taking in user input as a file. This option is
+activated by running the program without an argument or sending in a file as standard
+input. Once it is activate the user can type in anything they want. Once they are
+done typing in the input; they can press enter and then control d to signal an End of
+File to the program and run the rest of the program. 
+
+For both sending a file by standard input or using input from the user, the project 
+will create a file to write the standard input to and it removes the file after the
+program finished running. 
+
+Lastly, there is a make command, make clear, that will remove all the output files.

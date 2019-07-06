@@ -1,0 +1,5 @@
+This program successfully takes tokens from a scanner and creates a tree. The tree is
+then read by the testTree program, which prints the tree using preorder traversal. 
+The results of the testTree program is in tree.data. The program can detect if there
+is an error, gives the incorrect token and line number it resides in, lists the token
+or tokens it was looking for, and aborts the program.

@@ -1,3 +1,10 @@
-I chose the local option for this project. This program checks the static semantics 
-for a file. It is invoked by statSem [file] where file has the same extensions as
-the previous projects for this compiler.
+This program checks the static semantics for a file. The static semantics for this
+project included the proper use for the variables. It checked if the scope for a variable
+is global or local. If the variable is a local variable then the program will check if the 
+variable has already been declared in the scope. The static semantics stated that the 
+variable is global if it is declared outside the main block and local if it is declared 
+inside a block. Global variables are able to be used anywhere within the program and the 
+local variables are only available within its block. Local variables in the same scope cannot 
+share the same name and the closes variable to the scope takes precedence over the other 
+variables with the same name. It is invoked by statSem [file] where file has the same 
+extensions as the previous projects for this compiler.

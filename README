@@ -1,0 +1,3 @@
+I chose the local option for this project. This program checks the static semantics 
+for a file. It is invoked by statSem [file] where file has the same extensions as
+the previous projects for this compiler.

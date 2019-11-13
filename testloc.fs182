@@ -1,0 +1,19 @@
+void
+var x : 0
+start
+    var w : 0
+    scan w .
+    scan x .
+    start
+	var x : 0
+	scan x .
+	start
+	    var x : 0
+	    scan x .
+	    out [ x ] .
+	stop
+        out [ x ] .
+    stop
+    out [ x ] .
+    out [ w ] .
+stop
